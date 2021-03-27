@@ -7,14 +7,20 @@ Android Activity Lifecycle is controlled by 7 methods of android.app.Activity cl
 
 ### Android Activity Lifecycle methods
 
-*Let's see the 7 lifecycle methods of android activity.
+*Let's see the 7 lifecycle methods of android activity*
 
-**onCreate**	 is called when activity is first created.
+**onCreate**	is called when activity is first created.
+
 **onStart** is called when activity is becoming visible to the user.
-**onResume**	iscalled when activity will start interacting with the user.
+
+**onResume**	is called when activity will start interacting with the user.
+
 **onPause**	is called when activity is not visible to the user.
+
 **onStop** is	called when activity is no longer visible to the user.
+
 **onRestart** iscalled after your activity is stopped, prior to start.
+
 **onDestroy** iscalled before the activity is destroyed.
 
 

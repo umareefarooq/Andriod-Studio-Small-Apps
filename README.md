@@ -22,6 +22,9 @@
 7. **onDestroy** iscalled before the activity is destroyed.
 
 
+## Addition App
+
+   This App simply takes two integirs and them them. the sum of the numbers is shown in the App.
 
 
 ## Login App

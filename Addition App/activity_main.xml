@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<EditText
+    android:id="@+id/num1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Number 1"
+    android:textSize="30dp"
+    android:layout_centerHorizontal="true"
+    >
+
+</EditText>
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Number 2"
+        android:textSize="30dp"
+        android:layout_below="@id/num1"
+        android:layout_centerHorizontal="true"
+        >
+
+    </EditText>
+    <Button
+        android:onClick="Addition"
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_below="@id/num2"
+        android:layout_centerHorizontal="true"
+        android:textSize="45dp"
+        >
+
+    </Button>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Answer"
+        android:layout_below="@id/bt1"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        >
+
+    </TextView>
+
+
+</RelativeLayout>

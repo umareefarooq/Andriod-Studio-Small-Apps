@@ -25,6 +25,10 @@
 ## Addition App
 
    This App simply takes two integirs and them them. the sum of the numbers is shown in the App.
+   
+## Button Event App
+ 
+   This App has a button, which changes and displayes the text when it is clicked. After clicking the button, some text message is shown in the TextView below.
 
 
 ## Login App

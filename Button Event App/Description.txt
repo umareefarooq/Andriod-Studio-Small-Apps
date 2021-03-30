@@ -1,1 +1,2 @@
 
+This App has a button, which changes and displayes the text when it is clicked. After clicking the button, some text message is shown in the TextView below.

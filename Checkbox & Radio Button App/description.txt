@@ -1,1 +1,5 @@
 
+This small App takes two user inputs, i.e. the size and color of some given product.
+after checking the radio buttons, and the checkbox, when the user clicks on the "Order" button; the app 
+throws a toast message showing which size and color the user have chosen. right after that, another toast message
+pops up- showing if the user had click the "I agree to the terms" checkbox or not.

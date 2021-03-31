@@ -1,1 +1,2 @@
-
+This app has two image views with pictures already in place. Below each image, there is a button, which is used to change the picture when it is clicked.
+And same is the case with the second picture.

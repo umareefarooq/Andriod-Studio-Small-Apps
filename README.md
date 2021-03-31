@@ -35,6 +35,14 @@
    This app has two image views with pictures already in place. Below each image, there is a button, which is used to change the picture when it is clicked.
    And same is the case with the second picture.
    
+##  Checkbox & Radio Button App
+
+   This small App takes two user inputs, i.e. the size and color of some given product.
+   after checking the radio buttons, and the checkbox, when the user clicks on the "Order" button; the app 
+   throws a toast message showing which size and color the user have chosen. right after that, another toast message pops up- showing if the user had click 
+   the "I agree to the terms" checkbox or not. Also, if the user try to click the "Order" button without selecting any size and colour, then the app will 
+   not crash, but simply show a toast message saying, "Select Size & Colour."
+   
 ## Login App
 
 This App simple contains the Login page without any functionality.

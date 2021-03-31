@@ -30,7 +30,11 @@
  
    This App has a button, which changes and displayes the text when it is clicked. After clicking the button, some text message is shown in the TextView below.
 
+## Changing Images
 
+   This app has two image views with pictures already in place. Below each image, there is a button, which is used to change the picture when it is clicked.
+   And same is the case with the second picture.
+   
 ## Login App
 
 This App simple contains the Login page without any functionality.

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+  <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ABC Shop"
+      android:textSize="40dp"
+      android:layout_gravity="center"
+      />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size"
+        android:textSize="50dp"
+
+        />
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small"/>
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium"/>
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large"/>
+    </RadioGroup>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color"
+        android:textSize="50dp"
+
+        />
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"/>
+        <RadioButton
+            android:id="@+id/rb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"/>
+        <RadioButton
+            android:id="@+id/rb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree to the terms "/>
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Order"
+        android:onClick="orderFunction"
+        />
+
+
+
+
+
+</LinearLayout>

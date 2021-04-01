@@ -1,1 +1,1 @@
-includes detail about the project.
+This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.

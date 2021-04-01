@@ -1,1 +1,3 @@
-
+This Simple App is about Checkbox, and one of its important functionality, i.e. isChecked.
+The App simply features a checkbox and a button, which has onClick functionality coded in the backend, i.e. java.
+When the user clicks the "Check" button, the app will pop up a toast message telling about whether the checkbox is checked or not.

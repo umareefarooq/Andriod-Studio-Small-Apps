@@ -52,6 +52,14 @@
  ## Getting Input
  
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.
+   
 ## Login App
 
 This App simple contains the Login page without any functionality.
+
+## Radio group & Radio Button App
+
+   This app is about radio group and raadio buttons.
+   The concept is described by taking the radion group, i.e. gender, which had two radio buttons, i.e. male and female.
+   wHen the user clicks the "check" button; the app pop ups a toast message showing which gender is selected.
+   If the user clicks the "check" button without checking any radio button, then the app will show a toast message saying, "select a gender" rather than just crashing.

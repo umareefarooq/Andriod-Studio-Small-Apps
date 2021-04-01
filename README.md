@@ -35,6 +35,12 @@
    This app has two image views with pictures already in place. Below each image, there is a button, which is used to change the picture when it is clicked.
    And same is the case with the second picture.
    
+## CheckBox App
+
+   This Simple App is about Checkbox, and one of its important functionality, i.e. isChecked.
+   The App simply features a checkbox and a button, which has onClick functionality coded in the backend, i.e. java.
+   When the user clicks the "Check" button, the app will pop up a toast message telling about whether the checkbox is checked or not.
+
 ##  Checkbox & Radio Button App
 
    This small App takes two user inputs, i.e. the size and color of some given product.

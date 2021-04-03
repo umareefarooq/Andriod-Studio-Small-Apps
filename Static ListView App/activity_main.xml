@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    //1st type of listview, i.e. static. (only works with string arrays)
+    // 3 steps to implement static listview
+    //1 > make a listview in activity.xml
+    //2 > make an string-array in resources/values/string.xml
+    //3 > link the string-array from step2 to listview using the entries attribute. line 20
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Static ListView"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:entries="@array/items"></ListView>
+
+
+</LinearLayout>

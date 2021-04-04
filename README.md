@@ -63,3 +63,14 @@ This App simple contains the Login page without any functionality.
    The concept is described by taking the radion group, i.e. gender, which had two radio buttons, i.e. male and female.
    wHen the user clicks the "check" button; the app pop ups a toast message showing which gender is selected.
    If the user clicks the "check" button without checking any radio button, then the app will show a toast message saying, "select a gender" rather than just crashing.
+   
+## Static ListView App
+
+   
+    First type of listview, i.e. static. (only works with string arrays)
+    
+     Three steps to implement static listview
+     
+    1 > make a listview in activity.xml
+    2 > make an string-array in resources/values/string.xml
+    3 > link the string-array from step2 to listview using the entries attribute.

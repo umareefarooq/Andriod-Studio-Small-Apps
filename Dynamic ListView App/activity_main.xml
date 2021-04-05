@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    // 2nd type of listviews > dynamic content/static layout
+    // it has 3 steps
+    //1 > data source =
+    //2 > array adaptor =
+    //3 > connect listview with adaptor
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dynamic Content/ Static Layout ListView"
+        android:textSize="20dp"
+        />
+    <ListView
+        android:id="@+id/lv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+
+
+</LinearLayout>

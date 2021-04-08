@@ -49,6 +49,12 @@
    the "I agree to the terms" checkbox or not. Also, if the user try to click the "Order" button without selecting any size and colour, then the app will 
    not crash, but simply show a toast message saying, "Select Size & Colour."
    
+ ## Click Listener On Dynamic Content Static Layout Listview
+ 
+   In this app, two Click listeners are implemented.
+   The first one is simple click listener while the second one is long click listener.
+   
+   
  ## Custom Layout App
    
    This app is for the demonstration of 3rd type of list views, which is dynamic content dynamic layout

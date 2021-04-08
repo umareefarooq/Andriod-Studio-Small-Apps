@@ -22,8 +22,7 @@ public class MainActivity extends AppCompatActivity {
             "Last"
     };
 
-    //dynamic content static layout.
-    //click listner using 2nf type of listview. chrta chi click uki agha drta show kai chi litview ke km index wala shiz bandi click osho
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

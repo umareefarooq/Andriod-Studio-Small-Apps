@@ -1,1 +1,6 @@
+dynamic content static layout.
 
+   click listeners are implemented in this app.
+   
+   1st one is simple click listener
+   2nd one is long click listener

@@ -71,6 +71,6 @@ This App simple contains the Login page without any functionality.
     
    Three steps to implement static listview
      
-   1 > make a listview in activity.xml
-   2 > make an string-array in resources/values/string.xml
-   3 > link the string-array from step2 to listview using the entries attribute.
+  1 > make a listview in activity.xml
+  2 > make an string-array in resources/values/string.xml
+  3 > link the string-array from step2 to listview using the entries attribute.

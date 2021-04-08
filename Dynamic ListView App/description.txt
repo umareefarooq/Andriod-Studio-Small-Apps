@@ -1,2 +1,6 @@
 
-add description of the app here
+2nd type of listviews > dynamic content/static layout
+    it has 3 steps
+    1 > data source =
+    2 > array adaptor =
+    3 > connect listview with adaptor

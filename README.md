@@ -48,7 +48,11 @@
    throws a toast message showing which size and color the user have chosen. right after that, another toast message pops up- showing if the user had click 
    the "I agree to the terms" checkbox or not. Also, if the user try to click the "Order" button without selecting any size and colour, then the app will 
    not crash, but simply show a toast message saying, "Select Size & Colour."
- 
+   
+ ## Custom Layout App
+   
+   This app is for the demonstration of 3rd type of list views, which is dynamic content dynamic layout
+   
  ## Getting Input
  
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.

@@ -67,10 +67,10 @@ This App simple contains the Login page without any functionality.
 ## Static ListView App
 
    
-    First type of listview, i.e. static. (only works with string arrays)
+   First type of listview, i.e. static. (only works with string arrays)
     
-     Three steps to implement static listview
+   Three steps to implement static listview
      
-    1 > make a listview in activity.xml
-    2 > make an string-array in resources/values/string.xml
-    3 > link the string-array from step2 to listview using the entries attribute.
+   1 > make a listview in activity.xml
+   2 > make an string-array in resources/values/string.xml
+   3 > link the string-array from step2 to listview using the entries attribute.

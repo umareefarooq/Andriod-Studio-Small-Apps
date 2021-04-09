@@ -59,6 +59,15 @@
    
    This app is for the demonstration of 3rd type of list views, which is dynamic content dynamic layout
    
+ ## Dynamic Content Dynamic Layout ListView
+ 
+   Dynamic Content Dynamic Layout Implementation steps
+
+   1 > define and design a custom layout. (only for one entry of the list. the rest will replicate the same layout)
+   2 > in the main layout, define the listview
+   3 > main activity: nested class extended from base adapter and will override 4 methods.
+
+
  ## Getting Input
  
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.

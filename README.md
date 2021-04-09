@@ -63,8 +63,10 @@
  
    Dynamic Content Dynamic Layout Implementation steps
 
-   Fisrt step >  define and design a custom layout. (only for one entry of the list. the rest will replicate the same layout)
+   Fisrt step >  define and design a custom layout. (only for one entry of the list. the rest will replicate the same layout).
+   
    Second step > in the main layout, define the listview.
+   
    Third step > in main activity: nested class extended from base adapter and will override 4 methods.
 
 

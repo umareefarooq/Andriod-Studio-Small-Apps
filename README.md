@@ -69,7 +69,16 @@
    
    Third step > in main activity: nested class extended from base adapter and will override 4 methods.
 
+## Dynamic ListView App
 
+  Implemented using 2nd type of listviews, i.e. dynamic content static layout.
+  
+   It has 3 steps:
+   
+   Step 1 is data source.
+   Step 2 is array adaptor.
+   Step 3 is connect listview with corresponding adaptor.
+    
  ## Getting Input
  
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.

@@ -76,7 +76,9 @@
    It has 3 steps:
    
    Step 1 is data source.
+   
    Step 2 is array adaptor.
+   
    Step 3 is connect listview with corresponding adaptor.
     
  ## Getting Input

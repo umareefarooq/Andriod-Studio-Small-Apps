@@ -1,7 +1,9 @@
 
 This app has 3 buttons, whcih has onClick functionalities coded on the backend. 
 The onclick has different functions defining different types of implicit intents.
-The implicit intent takes two paramenters, which are the "Action" and the "Uri" in the form of 
+The implicit intent is implemented in two steps, which are the "Action" and the "Uri".
+
+The syntax of Implicit Intent is given below:
 
   Uri uri = Uri.parse("http://www.google.com");
         Intent it = new Intent(Intent.ACTION_VIEW,uri);

@@ -85,6 +85,23 @@
  
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.
    
+ ## Implicit Intent App
+ 
+   
+   This app has 3 buttons, whcih has onClick functionalities coded on the backend. 
+   The onclick has different functions defining different types of implicit intents.
+   The implicit intent takes two paramenters, which are the "Action" and the "Uri" in the form of 
+
+   Uri uri = Uri.parse("http://www.google.com");
+        Intent it = new Intent(Intent.ACTION_VIEW,uri);
+        startActivity(it);
+        
+   Uri is the datatype for intents. it takes different types of data depending upon the need of the intent.
+
+   It takes 'http' along with a link for opening other websites. The action used for opening another website or map coordinates will be "ACTION_VIEW".
+   It takes 'geo' along with longitudues and latitudes for opening other map coordinates. The action used for opening another website or map coordinates will be            "ACTION_VIEW".
+   It takes 'tel' along with a phone number for opening a dailer. The action used for opening a dailer will be "ACTION_DIAL".
+
 ## Login App
 
 This App simple contains the Login page without any functionality.

@@ -80,7 +80,15 @@
    Step 2 is array adaptor.
    
    Step 3 is connect listview with corresponding adaptor.
-    
+   
+  ## Explicit Intent App  
+  
+   
+   In this App, the concept of explicit intent is explained along with how the data is transfered and retreived from one activity to another one.
+   Explicit intents are used for switching from one activity to another in the same App.
+   The main activity has a simple button which has an onClick method, where the creation of explicit intent is implemented.
+   Also, the main activity has some key value pair data which is tranfered into the second activity via .putExtra method and is retrieved and shown in the second    activity via the .getStringExtra and .getIntExtra methods.
+
  ## Getting Input
  
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.

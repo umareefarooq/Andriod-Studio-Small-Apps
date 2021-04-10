@@ -99,7 +99,9 @@
    Uri is the datatype for intents. it takes different types of data depending upon the need of the intent.
 
    It takes 'http' along with a link for opening other websites. The action used for opening another website or map coordinates will be "ACTION_VIEW".
+   
    It takes 'geo' along with longitudues and latitudes for opening other map coordinates. The action used for opening another website or map coordinates will be            "ACTION_VIEW".
+   
    It takes 'tel' along with a phone number for opening a dailer. The action used for opening a dailer will be "ACTION_DIAL".
 
 ## Login App

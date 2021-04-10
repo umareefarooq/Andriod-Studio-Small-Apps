@@ -3,3 +3,7 @@ In this App, the concept of explicit intent is explained along with how the data
 Explicit intents are used for switching from one activity to another in the same App.
 The main activity has a simple button which has an onClick method, where the creation of explicit intent is implemented.
 Also, the main activity has some key value pair data which is tranfered into the second activity via .putExtra method and is retrieved and shown in the second activity via the .getStringExtra and .getIntExtra methods.
+
+  The context of Explicit Intent is given below:
+  
+    Intent intentObject = new Intent(Context, targetActivity.class);

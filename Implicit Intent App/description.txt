@@ -6,7 +6,9 @@ The implicit intent takes two paramenters, which are the "Action" and the "Uri" 
   Uri uri = Uri.parse("http://www.google.com");
         Intent it = new Intent(Intent.ACTION_VIEW,uri);
         startActivity(it);
+        
 Uri is the datatype for intents. it takes different types of data depending upon the need of the intent.
-  It takes http for opening other websites. The action used for opening another website or map coordinates will be "ACTION_VIEW".
-  It takes geo for opening other map coordinates. The action used for opening another website or map coordinates will be "ACTION_VIEW".
-  It takes http for opening other websites. The action used for opening another website or map coordinates will be "ACTION_VIEW".
+
+  It takes 'http' along with a link for opening other websites. The action used for opening another website or map coordinates will be "ACTION_VIEW".
+  It takes 'geo' along with longitudues and latitudes for opening other map coordinates. The action used for opening another website or map coordinates will be         "ACTION_VIEW".
+  It takes 'tel' along with a phone number for opening a dailer. The action used for opening a dailer will be "ACTION_DAIL".

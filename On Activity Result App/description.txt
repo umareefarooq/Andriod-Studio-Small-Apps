@@ -1,2 +1,4 @@
 
-add description here
+This app has two activities. The functionality of this app is that it asks the user to click a button which will take the user to another activity.
+In the next activity, the user will be asked to type some message and after clicking the "Submit Text" button there, the text will be taken from that activity and
+shown in a textview in the first activity. This is done through a method called "onActivityResult".

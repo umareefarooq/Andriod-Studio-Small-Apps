@@ -122,6 +122,13 @@ Uri is the datatype for intents. it takes different types of data depending upon
 
 This App simple contains the Login page without any functionality.
 
+## On Activity Result App
+
+   
+   This app has two activities. The functionality of this app is that it asks the user to click a button which will take the user to another activity.
+   In the next activity, the user will be asked to type some message and after clicking the "Submit Text" button there, the text will be taken from that activity    and
+   shown in a textview in the first activity. This is done through a method called "onActivityResult".
+
 ## Radio group & Radio Button App
 
    This app is about radio group and raadio buttons.

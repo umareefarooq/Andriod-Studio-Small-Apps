@@ -11,7 +11,7 @@
 
 ### Android Activity Lifecycle methods
 
-   *Let's see the 7 lifecycle methods of android activity*
+   *Let's see the 7 lifecycle methods of android activity:*
 
 1. **onCreate**	is called when activity is first created.
 2. **onStart** is called when activity is becoming visible to the user.
@@ -57,11 +57,11 @@
    
  ## Custom Layout App
    
-   This app is for the demonstration of 3rd type of list views, which is dynamic content dynamic layout
+   This app is for the demonstration of 3rd type of list views, which is dynamic content dynamic layout.
    
  ## Dynamic Content Dynamic Layout ListView
  
-   Dynamic Content Dynamic Layout Implementation steps
+   Dynamic Content Dynamic Layout Implementation steps:
 
    Fisrt step >  define and design a custom layout. (only for one entry of the list. the rest will replicate the same layout).
    
@@ -89,7 +89,7 @@
    The main activity has a simple button which has an onClick method, where the creation of explicit intent is implemented.
    Also, the main activity has some key value pair data which is tranfered into the second activity via .putExtra method and is retrieved and shown in the second    activity via the .getStringExtra and .getIntExtra methods.
 
-   The context of Explicit Intent is given below:
+   The context of Explicit Intent is given below;
   
     Intent intentObject = new Intent(Context, targetActivity.class);
     
@@ -105,7 +105,7 @@ This app has 3 buttons, whcih has onClick functionalities coded on the backend.
 The onclick has different functions defining different types of implicit intents.
 The implicit intent is implemented in two steps, which are the "Action" and the "Uri".
 
-The syntax of Implicit Intent is given below:
+The syntax of Implicit Intent is given below;
 
          Uri uri = Uri.parse("http://www.google.com");
          Intent it = new Intent(Intent.ACTION_VIEW,uri);
@@ -141,7 +141,7 @@ This App simple contains the Login page without any functionality.
    
    First type of listview, i.e. static. (only works with string arrays)
     
-   Three steps to implement static listview
+   Three steps to implement static listview:
      
   Step 1 is to make a listview in activity.xml
   

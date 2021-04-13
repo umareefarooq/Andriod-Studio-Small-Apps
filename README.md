@@ -144,6 +144,19 @@ This App simple contains the Login page without any functionality.
    wHen the user clicks the "check" button; the app pop ups a toast message showing which gender is selected.
    If the user clicks the "check" button without checking any radio button, then the app will show a toast message saying, "select a gender" rather than just crashing.
    
+# Shared Preferences App
+
+
+   Shared Preferences is used to store and retrieve small amounts of primitive data
+   as key/value pairs to a file on the device.
+   Primarily used for saving Application Settings & User Information. The data will be available across user sessions even if the application is killed.
+   These preferences are stored in XML files in the Android file system as follows:
+
+      Data/data/<package_name>/shared_prefs/<pref filename>.xml
+
+   In this App, the first activity takes some input from the user, which is then saved into a shared preference and also shown in an EditText in the second activity.
+
+   
 ## Static ListView App
 
    

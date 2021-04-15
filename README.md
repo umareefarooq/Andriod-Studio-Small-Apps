@@ -75,11 +75,11 @@
   
    It has 3 steps:
    
-   Step 1 is data source.
+   Step one is to make a data source.
    
-   Step 2 is array adaptor.
+   Step two is to define and create an array adaptor.
    
-   Step 3 is connect listview with corresponding adaptor.
+   Step three is to connect listview with corresponding adaptor.
    
   ## Explicit Intent App  
   

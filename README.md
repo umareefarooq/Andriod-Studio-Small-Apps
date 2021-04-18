@@ -137,10 +137,13 @@ This App simple contains the Login page without any functionality.
    In the next activity, the user will be asked to type some message and after clicking the "Submit Text" button there, the text will be taken from that activity    and
    shown in a textview in the first activity. This is done through a method called "onActivityResult".
 
-# Option Menu With onClick Functionality
+## Option Menu With onClick Functionality
 
    add description here
    
+## Popup Menu With onClick Functionality  
+   
+   add description here
    
 ## Radio group & Radio Button App
 

@@ -139,7 +139,35 @@ This App simple contains the Login page without any functionality.
 
 ## Option Menu With onClick Functionality
 
-   add description here
+   
+For creating an option menu in the app, first create an andriod resourse directory. Within the directory, create a resourse of the type menu class. In that menu type file/resourse, create the items that you want to show in the option menu in the exact same order. After doing so, run the following code in the main activity:
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_menu,menu);
+        return super.onCreateOptionsMenu(menu);
+        
+This will create an option menu in the app.
+Also, to make the items in the menu clickable, implement the below function and code it according to your logic or needs:
+
+        // method for the click listener on Option Menu
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+    
+                if(item.getItemId()==R.id.item1)
+                {
+                    //Logic here
+                }
+                if(item.getItemId()==R.id.item2)
+                {
+                     //Logic here
+                }
+                if(item.getItemId()==R.id.item3)
+                {
+                     //Logic here       
+                }
+                return super.onOptionsItemSelected(item);
+    }
+
    
 ## Popup Menu With onClick Functionality  
    

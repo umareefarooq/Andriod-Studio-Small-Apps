@@ -1,2 +1,8 @@
 
-add description here
+For creating an option menu in the app, first create an andriod resourse directory. Within the directory, create a resourse of the type menu class. In that menu type file/resourse, create the items that you want to show in the option menu in the exact same order. After doing so, run the following code in the main activity:
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_menu,menu);
+        return super.onCreateOptionsMenu(menu);
+        
+This will create an option menu in the app.

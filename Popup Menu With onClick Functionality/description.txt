@@ -1,2 +1,31 @@
 
-add description here
+
+For creating a Popup menu in the app, first create an andriod resourse directory. Within the directory, create a resourse of the type menu class. In that menu type file/resourse, create the items that you want to show in the option menu in the exact same order. After doing so, run the following code in the main activity:
+
+        PopupMenu popup = new PopupMenu(MainActivity.this, view);
+        popup.getMenuInflater().inflate(R.menu.popupmenu, popup.getMenu());
+        popup.show();
+        
+This will create a Popup menu in the app.
+Also, to make the items in the menu clickable, implement the below function and code it according to your logic or needs:
+
+        popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem menuItem)
+            {
+
+                if(menuItem.getItemId()==R.id.one)
+                {
+                    //Logic here
+                }
+                if(menuItem.getItemId()==R.id.two)
+                {
+                    //Logic here                }
+                if(menuItem.getItemId()==R.id.three)
+                {
+                    //Logic here
+                }
+                return true;
+            }
+            )};
+

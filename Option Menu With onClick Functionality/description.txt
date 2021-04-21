@@ -8,7 +8,7 @@ For creating an option menu in the app, first create an andriod resourse directo
 This will create an option menu in the app.
 Also, to make the items in the menu clickable, implement the below function and code it according to your logic or needs:
 
-        // method for the click listener on Option Menu
+        // method for the click listener on Option Menu.
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
     

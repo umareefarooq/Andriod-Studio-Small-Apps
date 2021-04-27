@@ -19,7 +19,7 @@
 4. **onPause**	is called when activity is not visible to the user.
 5. **onStop** is	called when activity is no longer visible to the user.
 6. **onRestart** iscalled after your activity is stopped, prior to start.
-7. **onDestroy** iscalled before the activity is destroyed.
+7. **onDestroy** is called before the activity is destroyed.
 
 
 ## Addition App

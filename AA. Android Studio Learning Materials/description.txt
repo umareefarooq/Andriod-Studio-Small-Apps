@@ -5,3 +5,5 @@ This Directory contains all the necessary notes and materials for learning Andro
   Chapter 2
   Chapter 3 
   Chapter 4
+  Chapter 5
+

@@ -8,4 +8,5 @@ This Directory contains all the necessary notes and materials for learning Andro
   Chapter 5
   Chapter 6
   Chapter 7
+  Chapter 8
 

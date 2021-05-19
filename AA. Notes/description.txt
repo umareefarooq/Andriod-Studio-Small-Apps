@@ -4,5 +4,6 @@ Chapter 2 - Layouts
 Chapter 3 - Widgets
 Chapter 4 - Intents
 Chapter 5 - Activity Life cycle
-Chapter 6 = Shared Preferences
+Chapter 6 - Shared Preferences
+Chapter 7 - SQLite Database
 

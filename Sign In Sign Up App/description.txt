@@ -1,1 +1,1 @@
-add files and description of project
+This App is about sign up and sign in functionality.

@@ -90,23 +90,23 @@
    Also, the main activity has some key value pair data which is tranfered into the second activity via .putExtra method and is retrieved and shown in the second    activity via the .getStringExtra and .getIntExtra methods.
 
    The context of Explicit Intent is given below;
+   
   
-    Intent intentObject = new Intent(Context, targetActivity.class);
+      Intent intentObject = new Intent(Context, targetActivity.class);
     
  ## Fragments App
    
-   This App is about fragments. It consists of two fragments, fragment one and two.
-   To chnage from one fragment to another, we use the following code:
-         
-              
-                    
-   
-            
+  This App is about fragments. It consists of two fragments, fragment one and two.
+  
+  To chnage from one fragment to another, we use the following code;
+      
+      
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.Frame1, new Frag1());
+            ft.commit();
     
-         
-                  
-   
- ## Getting Input
+    
+   ## Getting Input App
  
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.
    

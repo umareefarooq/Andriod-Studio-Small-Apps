@@ -93,6 +93,10 @@
   
     Intent intentObject = new Intent(Context, targetActivity.class);
     
+ ## Fragments App
+   
+   This App is about fragments. It consists of two fragments, fragment one and two....
+   
  ## Getting Input
  
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.

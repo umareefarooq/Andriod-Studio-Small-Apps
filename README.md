@@ -96,7 +96,7 @@
     
  ## Fragments App
    
-  This App is about fragments. It consists of two fragments, fragment one and two.
+  This App is about fragments. It consists of two fragments. The app demonstrates about how to change from one fragment to another. Also, the app demonstrates about the Onclick funtionality of fragments.
   
   To chnage from one fragment to another, we use the following code;
       
@@ -105,9 +105,12 @@
             ft.replace(R.id.Frame1, new Frag1());
             ft.commit();
     
-    
-   ## Getting Input App
- 
+   To apply the Onclick funtionality within a fragment, we use the below code;
+            
+       xyz 
+       
+       
+ ## Getting Input App
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.
    
  ## Implicit Intent App

@@ -97,6 +97,12 @@
    
    This App is about fragments. It consists of two fragments, fragment one and two....
    
+   To chnage from one fragment to another, we use the following code:
+            
+    
+         
+                  
+   
  ## Getting Input
  
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.

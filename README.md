@@ -224,6 +224,9 @@ Also, to make the items in the menu clickable, implement the below function and 
 
    In this App, the first activity takes some input from the user, which is then saved into a shared preference and also shown in an EditText in the second activity.
 
+# Sign In Sign Up App
+   
+   This app has sign in and sign up functionality where a user can first sign up and then sign in. After signing up, if the user will sign in with valid credentials stored in the database, he/she will be taken to the home page showing a successful execution. While on the other hand, if the user provides with an unvalid credentials for signing in, he/she will be taken to an unsuccessful execution page showing failure via a toast messsage.
    
 ## Static ListView App
 

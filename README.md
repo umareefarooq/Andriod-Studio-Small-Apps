@@ -95,9 +95,12 @@
     
  ## Fragments App
    
-   This App is about fragments. It consists of two fragments, fragment one and two....
-   
+   This App is about fragments. It consists of two fragments, fragment one and two.
    To chnage from one fragment to another, we use the following code:
+         
+              
+                    
+   
             
     
          

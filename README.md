@@ -107,7 +107,22 @@
     
    To apply the Onclick funtionality within a fragment, we use the below code;
             
-       xyz 
+       @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        View view = inflater.inflate(R.layout.fragment_frag1, container, false);
+        Button button = (Button) view.findViewById(R.id.b1);
+        button.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Toast.makeText(getContext(), "Toast Message", Toast.LENGTH_SHORT).show();
+            }
+        });
+        return view;
+    }
        
        
  ## Getting Input App

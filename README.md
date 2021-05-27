@@ -272,3 +272,8 @@ Also, to make the items in the menu clickable, implement the below function and 
   Step 2 is to make a string-array in resources/values/string.xml
   
   Step 3 is to link the string-array from step 2 to listview using the entries attribute.
+
+## Text To Speech App
+
+   add description here
+   

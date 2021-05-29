@@ -7,9 +7,18 @@ Text to Speech works in three steps:
 
 Step 1 -  Making  the object of texttospeech class
 
-      TextToSpeech t1;
+      TextToSpeech t1 = new TextToSpeech(this, new TextToSpeech.OnInitListener(){   });
 
-Step 2 - 
+Step 2 -  Implementation of oninit method within the TextToSpeech object
+
+        
+            @Override
+            public void onInit(int status) {
+                t1.setLanguage(Locale.ENGLISH);
+                t1.setPitch(1.0f);
+                t1.setSpeechRate(1.0f);
+            }
+       
 
 Step 3 -
 

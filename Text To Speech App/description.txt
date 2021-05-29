@@ -1,2 +1,13 @@
 
-  write description here
+  
+This App converts a text input into speech. When the user launches the app, it asks to press the button at the top of the screen.
+After presssing the button, the app converts that given text into speech. 
+
+Text to Speech works in three steps:
+
+Step 1 - 
+
+Step 2 - 
+
+Step 3 -
+

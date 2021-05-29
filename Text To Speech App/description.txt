@@ -5,7 +5,9 @@ After presssing the button, the app converts that given text into speech.
 
 Text to Speech works in three steps:
 
-Step 1 - 
+Step 1 -  Making  the object of texttospeech class
+
+      TextToSpeech t1;
 
 Step 2 - 
 

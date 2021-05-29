@@ -20,5 +20,7 @@ Step 2 -  Implementation of oninit method within the TextToSpeech object
             }
        
 
-Step 3 -
+Step 3 - Calling Speak method on the text to speech object
+
+        t1.speak(Text, TextToSpeech.QUEUE_FLUSH,null);
 

@@ -281,5 +281,27 @@ Also, to make the items in the menu clickable, implement the below function and 
 
 ## Text To Speech App
 
-   add description here
+   This App converts a text input into speech. When the user launches the app, it asks to press the button at the top of the screen.
+After presssing the button, the app converts that given text into speech. 
+
+Text to Speech works in three steps:
+
+Step 1 -  Making  the object of texttospeech class
+
+      TextToSpeech t1 = new TextToSpeech(this, new TextToSpeech.OnInitListener(){   });
+
+Step 2 -  Implementation of oninit method within the TextToSpeech object
+
+        
+            @Override
+            public void onInit(int status) {
+                t1.setLanguage(Locale.ENGLISH);
+                t1.setPitch(1.0f);
+                t1.setSpeechRate(1.0f);
+            }
+       
+
+Step 3 - Calling Speak method on the text to speech object
+
+        t1.speak(Text, TextToSpeech.QUEUE_FLUSH,null);
    

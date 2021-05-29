@@ -262,7 +262,9 @@ Also, to make the items in the menu clickable, implement the below function and 
    
 # Speech To Text App
 
-   add description here
+   
+   This App converts a speech input into text form using recognizer intent. When the user launches the app, it asks to press the button at the bottom of the screen.After presssing the button, the app asks the user to speak something. Whatever the user speaks, the app converts that speech into text.
+
    
 # Static ListView App
 

@@ -264,13 +264,13 @@ Also, to make the items in the menu clickable, implement the below function and 
    This app has sign in and sign up functionality using firebase where a user can first sign up and then sign in. After signing up, if the user will sign in with valid credentials stored in the database, he/she will be taken to the home page showing a successful execution. While on the other hand, if the user provides with an unvalid credentials for signing in, he/she will be taken to an unsuccessful execution page showing failure via a toast messsage.
    
    
-# Speech To Text App
+## Speech To Text App
 
    
    This App converts a speech input into text form using recognizer intent. When the user launches the app, it asks to press the button at the bottom of the screen.After presssing the button, the app asks the user to speak something. Whatever the user speaks, the app converts that speech into text.
 
    
-# Static ListView App
+## Static ListView App
 
    
    First type of listview, i.e. static. (only works with string arrays)

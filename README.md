@@ -126,6 +126,7 @@
        
        
  ## Getting Input App
+ 
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.
    
  ## Implicit Intent App
@@ -150,7 +151,9 @@ Uri is the datatype for intents. it takes different types of data depending upon
 
 ## Insertion To SQLite App
   
-   add description here
+   This App simply demonstrates the concept of SQLite database createtion and insertion to it.
+   It asks the user to input a string, product name and adds it to the SQLite database.
+
    
 ## Instance State Lost App
 

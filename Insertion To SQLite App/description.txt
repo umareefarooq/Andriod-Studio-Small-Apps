@@ -1,2 +1,3 @@
 
-add description here
+This App simply demonstrates the concept of SQLite database createtion and insertion to it.
+It asks the user to input a string, product name and adds it to the SQLite database.

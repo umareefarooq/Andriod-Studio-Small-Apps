@@ -293,11 +293,11 @@ After presssing the button, the app converts that given text into speech.
 
 Text to Speech works in three steps:
 
-Step 1 -  Making  the object of texttospeech class
+Step 1 :  Making  the object of texttospeech class
 
       TextToSpeech t1 = new TextToSpeech(this, new TextToSpeech.OnInitListener(){   });
 
-Step 2 -  Implementation of oninit method within the TextToSpeech object
+Step 2 :  Implementation of oninit method within the TextToSpeech object
 
         
             @Override
@@ -308,7 +308,7 @@ Step 2 -  Implementation of oninit method within the TextToSpeech object
             }
        
 
-Step 3 - Calling Speak method on the text to speech object
+Step 3 : Calling Speak method on the text to speech object
 
         t1.speak(Text, TextToSpeech.QUEUE_FLUSH,null);
    

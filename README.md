@@ -168,6 +168,10 @@ Uri is the datatype for intents. it takes different types of data depending upon
 
 This App simple contains the Login page without any functionality.
 
+## Notification App
+   
+   add description here
+
 ## On Activity Result App
 
    

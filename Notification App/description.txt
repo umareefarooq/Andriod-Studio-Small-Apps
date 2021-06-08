@@ -1,2 +1,2 @@
  
- add description here
+ Notifications in andriod is done via an intent.

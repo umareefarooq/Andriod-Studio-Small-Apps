@@ -170,7 +170,10 @@ This App simple contains the Login page without any functionality.
 
 ## Notification App
    
-   add description here
+    
+   This app has a simple demonstration of how notifications in andriod works. The app has a button; when clicked, it generates a notification. 
+ When the user clicks the notification in the drop down menu, it takes the user to another activity via pending intent.
+
 
 ## On Activity Result App
 

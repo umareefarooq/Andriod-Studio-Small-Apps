@@ -129,6 +129,11 @@
  
    This app performs a simple task of getting a user input in an edittext, which is then displayed in a textview after user clicks the button.
    
+ ## Google Maps API App
+    
+   The google maps API is used in this app. The app has the lats and longs on my friend's house. The marker shows a title.
+   Also the map has a hybrid satilite image view.
+
  ## Implicit Intent App
  
    

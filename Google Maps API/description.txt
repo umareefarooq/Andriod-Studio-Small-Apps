@@ -1,2 +1,3 @@
-The google maps API is used in this app. The app has the lats and longs on my friend's house. The marker shows a title.
-Also the map has a hybrid satilite image view.
+  
+  The google maps API is used in this app. The app has the lats and longs on my friend's house. The marker shows a title.
+  Also the map has a hybrid satilite image view.

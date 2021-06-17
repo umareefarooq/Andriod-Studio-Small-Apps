@@ -262,6 +262,13 @@ Also, to make the items in the menu clickable, implement the below function and 
    wHen the user clicks the "check" button; the app pop ups a toast message showing which gender is selected.
    If the user clicks the "check" button without checking any radio button, then the app will show a toast message saying, "select a gender" rather than just crashing.
    
+## Services App
+    
+   A service is a component that runs in the background & foreground. It can perform long-running operations in the background. It does not provide a user interface.
+   Once started, a service might continue running for some time, even after the user switches to another application or activity.
+   In this App, the app has the functionality to play a song in the bacjground.
+
+   
 ## Shared Preferences App
 
 

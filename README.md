@@ -266,7 +266,21 @@ Also, to make the items in the menu clickable, implement the below function and 
     
    A service is a component that runs in the background & foreground. It can perform long-running operations in the background. It does not provide a user interface.
    Once started, a service might continue running for some time, even after the user switches to another application or activity.
+   
    In this App, the app has the functionality to play a song in the bacjground.
+      
+       @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.song);
+        mediaPlayer.start();
+        return START_STICKY;
+    }
+
+    @Override
+    public void onDestroy() {
+        mediaPlayer.stop();
+        super.onDestroy();
+    }
 
    
 ## Shared Preferences App

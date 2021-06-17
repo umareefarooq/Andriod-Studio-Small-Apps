@@ -1,1 +1,3 @@
-add it here
+
+A service is a component that runs in the background & foreground. It can perform long-running operations in the background. It does not provide a user interface.
+Once started, a service might continue running for some time, even after the user switches to another application or activity.

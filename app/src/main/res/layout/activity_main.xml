@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wv"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/et"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="Search here" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:id="@+id/bt1"
+        android:layout_toRightOf="@+id/et"
+        android:onClick="search"
+        android:background="@drawable/search"
+        />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="59dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/back"
+        android:onClick="back" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="62dp"
+        android:layout_height="38dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/forward"
+        android:onClick="forward" />
+</RelativeLayout>

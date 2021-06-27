@@ -262,9 +262,6 @@ Also, to make the items in the menu clickable, implement the below function and 
    wHen the user clicks the "check" button; the app pop ups a toast message showing which gender is selected.
    If the user clicks the "check" button without checking any radio button, then the app will show a toast message saying, "select a gender" rather than just crashing.
 
-## SQLite Database App
-      
-   Add file and thier description here
 
 ## Services App
     

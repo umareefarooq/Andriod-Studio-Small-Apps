@@ -261,7 +261,11 @@ Also, to make the items in the menu clickable, implement the below function and 
    The concept is described by taking the radion group, i.e. gender, which had two radio buttons, i.e. male and female.
    wHen the user clicks the "check" button; the app pop ups a toast message showing which gender is selected.
    If the user clicks the "check" button without checking any radio button, then the app will show a toast message saying, "select a gender" rather than just crashing.
-   
+
+## SQLite Database App
+      
+   Add file and thier description here
+
 ## Services App
     
    A service is a component that runs in the background & foreground. It can perform long-running operations in the background. It does not provide a user interface.

@@ -6,4 +6,4 @@ Chapter 4 - Intents
 Chapter 5 - Activity Life cycle
 Chapter 6 - Shared Preferences
 Chapter 7 - SQLite Database
-
+Chapter 8 - Firebase

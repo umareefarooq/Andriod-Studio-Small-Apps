@@ -1,6 +1,6 @@
 # Andriod-Studio-Small-Apps
 
-   This repositopry contains small Apps and Projects that I have developed in Andriod Studio.
+   This repositopry contains small Apps and Projects that I have developed in Andriod Studio. I will add more as time passes.
 
 ## Activity Life Cycle
 
